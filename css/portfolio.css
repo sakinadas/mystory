@@ -1,0 +1,47 @@
+
+.singleheader {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    left: 2rem;
+    top: 2rem;
+    padding: 0.5rem;
+  }
+
+.crissncross img{
+	margin-bottom: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.reports img{
+	margin-bottom: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.reports #image1 img{
+    width: 50%;
+}
+
+.shoes img{
+	margin-bottom: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.shoes #image3, #image4{
+	margin: auto;
+	overflow: auto;
+    width: 40%;
+}
+
