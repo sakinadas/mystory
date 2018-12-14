@@ -39,9 +39,23 @@
     width: 70%;
 }
 
-.shoes #image3, #image4{
+.shoes #image3, .shoes #image4{
 	margin: auto;
 	overflow: auto;
     width: 40%;
 }
 
+.uxlearn #image1, .uxlearn #image2,.uxlearn #image3,.uxlearn #image4{
+    margin: auto;
+    width: 85%;
+}
+
+.uxlearn #image9{
+    margin: auto;
+    width: 70%;
+}
+
+.uxlearn #image12{
+    margin: auto;
+    width: 60%;
+}
