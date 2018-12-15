@@ -35,7 +35,7 @@ body {
 }
 
 a, a:visited {
-	color: #000000;
+	color: #6e6e6e;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -2459,7 +2459,7 @@ footer .row {
 	max-width: 900px;
 }
 footer .social {
-	/*text-align: right;*/
+	text-align: right;
 }
 footer .footer-social {
 	display: inline-block;
@@ -2568,12 +2568,4 @@ footer .copyright span:last-child::after {
 	background-color: #05aba67d;
 	width: 100%;
 	padding: 10px;
-}
-
-.services-content img{
-	height: 10px;
-}
-
-.services-content span{
-	padding: 2rem;
 }
