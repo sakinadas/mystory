@@ -1019,7 +1019,6 @@ header .top-bar {
 	background: #000000;
 	min-width: 220px;
 	min-height: 66px;
-	position: absolute;
 	top: 0;
 }
 header .logo {
