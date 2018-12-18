@@ -27,7 +27,7 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	/*background: #151515;*/
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
@@ -211,12 +211,11 @@ mark {
 	background: #FFF49B;
 	color: #000;
 }
-hr {
-	border: solid #d2d2d2;
-	border-width: 1px 0 0;
-	clear: both;
-	margin: 2.4rem 0 1.5rem;
-	height: 0;
+hr {	
+	border: solid #888888;
+    border-width: 6px 0 0;
+    clear: both;
+    margin: 0.4rem 0 6rem;
 }
 
 /**

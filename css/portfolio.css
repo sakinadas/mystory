@@ -1,4 +1,9 @@
 
+.uxlearn{
+        margin-top: 4rem;
+}
+
+
 .singleheader {
     position: relative;
     height: 5rem;
@@ -9,6 +14,7 @@
     left: 2rem;
     top: 2rem;
     padding: 0.5rem;
+    border: 3px solid;
   }
 
 .crissncross img{
@@ -45,17 +51,86 @@
     width: 40%;
 }
 
-.uxlearn #image1, .uxlearn #image2,.uxlearn #image3,.uxlearn #image4{
-    margin: auto;
-    width: 85%;
-}
-
-.uxlearn #image9{
-    margin: auto;
-    width: 70%;
-}
-
 .uxlearn #image12{
     margin: auto;
     width: 60%;
+}
+
+.web, .webmock{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.uxlearn .web .designs img,
+.uxlearn .webmock .designs img,
+.uxlearn .ipad .designs img{
+    width: 75%;
+    height: auto;
+    box-shadow: 5px 7px 20px 0px;
+    margin: auto;
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.uxlearn p{
+    height: auto;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 2rem;
+    font-family: -webkit-body;
+    padding: 1.5rem;
+    box-shadow: 5px 7px 20px 0px;
+}
+
+.uxlearn .designs span{
+    display: inline-block;
+    font-size: 14px;
+    color: #5d5d5d;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 1rem;
+}
+
+.uxlearn .sizes a{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    background: #05aba6;
+    padding: 1rem;
+}
+
+.uxlearn .sizes{
+    height: auto;
+    text-align: center;
+    background: #fff;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.uxlearn .sizes a:hover{
+    background: black;
+    color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0 !important;
+  text-align: center;
+   background: #0000006e;
+}
+
+.uxlearn .phone .designs img{
+    width: 35%;
+    margin: auto;
+    height: auto;
+    box-shadow: 5px 7px 20px 0px;
+    margin: auto;
+    display: block;
+    margin-bottom: 3rem;
 }
