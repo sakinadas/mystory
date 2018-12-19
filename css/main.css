@@ -2048,6 +2048,7 @@ header .logo span{
 	padding-bottom: 3rem;
 	color: white;
 	position: relative;
+	background: black;
 }
 #services .overlay {
 	position: absolute;
@@ -2197,7 +2198,7 @@ header .logo span{
 #contact {
 	background: #151515;
 	padding-top: 3rem;
-	padding-bottom: 7.2rem;
+	padding-bottom: 1.2rem;
 }
 #contact .section-intro h1 {
 	color: white;
@@ -2439,6 +2440,8 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	padding-top: 1rem;
+	background-color: black;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
