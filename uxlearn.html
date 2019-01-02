@@ -18,46 +18,26 @@
 </header> <!-- /header -->
 
 	<div class="main-container uxlearn" id="uxlearn">
+		<h2 class="caption"><center>About the design and detail.</center></h2>
 		<p>A design that shows the basic principles a UX designer must adhere to. The layout is responsive, readable and clean. 
 				It features a visually appealing font style and size, that is eaisly adaptive to different screen sizes. <br>
 				The colors are used such that they highlight the title of the content and yet are not very distractive while reading the content text. They mark separations between 2 different topics.<br><br>Below are layouts for different screen sizes.</p>
 
-
-				<div class="sizes" id="sizes">
-					<a href = "#uxlearn" class="size-details">Web (1280 x 800)</a>
-					<a href = "#webmockstart" class="size-details">Web mockups (1280 x 800)</a>
-					<a href = "#ipadstart" class="size-details">iPads (1280 x 800)</a>
-					<a href = "#phonestart" class="size-details">iPhones (1280 x 800)</a>
-				</div>
-
-		<div class="web desc" id="web">
-			<div class="designs" id="image1"><img src="images/uxlearn/web1.png"></div>
-			<div class="designs" id="image2"><img src="images/uxlearn/web2.png"></div>
-			<div class="designs" id="image3"><img src="images/uxlearn/web3.png"></div>
-		</div>
-		<hr id="webmockstart">
-
-		<div class="webmock" id="webmock">
-			<div class="designs" id="image4"><img src="images/uxlearn/webmock1.png"></div>
-			<div class="designs" id="image5"><img src="images/uxlearn/webmock2.png"></div>
-			<div class="designs" id="image6"><img src="images/uxlearn/webmock3.png"></div>
+		<div style="margin-right: 20px; margin-left: 20px;"  class="web desc" id="web">
+			<div class="designs one" id="image1"><img style="margin-right: 3rem;" src="images/uxlearn/web1.png"></div>
+			<div class="designs two" id="image2"><img style="margin-right: 3rem;" src="images/uxlearn/web2.png"></div>
+			<div class="designs three" id="image3"><img src="images/uxlearn/web3.png"></div>
 		</div>
 
-		<hr id="ipadstart">
-		
-		<div class="ipad" id="ipad">
-			<div class="designs" id="image7"><img src="images/uxlearn/ipadland2.png"></div>
+		<div style="margin-right: 20px; margin-left: 20px;"  class="webmock" id="webmock">
+			<div class="designs" id="image4"><img src="images/uxlearn/iPad Mini.jpg"></div>
+			<div class="designs" id="image5"><img src="images/uxlearn/iPad Mini2.jpg"></div>
 			<div class="designs" id="image8"><img src="images/uxlearn/ipadmock2.jpg"></div>
 		</div>
-		<hr id="phonestart">
-		<div class="phone" id="phone">
-			<div class="designs" id="image9"><img src="images/uxlearn/phone6-1.png"></div>
-			<div class="designs" id="image11"><img src="images/uxlearn/phone7-1.png"></div>
-		</div>
-		<hr id="phonestart2">
-		<div class="phone">
-			<div class="designs" id="image12"><img src="images/uxlearn/phone7plus3.png" style="width: 50%"></div>
-			<div class="designs" id="image10"><img src="images/uxlearn/phone6-3.png"></div>
+
+		<div style="margin-right: 20px; margin-left: 20px;" class="phone">
+			<div class="designs" id="image9"><img style="margin-right: 3rem;" src="images/uxlearn/Multiple devices.png"></div>
+			<div class="designs" id="image10"><img src="images/uxlearn/New iPad Pro.png"></div>
 		</div>
 	</div>
 	
@@ -66,21 +46,6 @@
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/pace.min.js"></script>  
-
-	<script>
-		window.onscroll = function() {myFunction()};
-
-		var header = document.getElementById("sizes");
-		var sticky = header.offsetTop;
-
-		function myFunction() {
-		  if (window.pageYOffset > sticky) {
-		    header.classList.add("sticky");
-		  } else {
-		    header.classList.remove("sticky");
-		  }
-		}
-	</script>
 
 </body>
 </html>
