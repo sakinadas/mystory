@@ -116,10 +116,10 @@ p.lead {
 	}
 }
 em, i, strong, b {
-	font-size: 1.7rem;
+	/*font-size: 1.7rem;
 	line-height: 3rem;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: normal;*/
 }
 em, i {
 	font-family: "lora-italic", serif;
@@ -1743,7 +1743,7 @@ header .logo span{
 	padding: 0;
 	position: relative;
 	overflow: hidden;
-	height: 30rem;
+	/*height: 30rem;*/
     width: 30rem;
     position: absolute;
     left: 0px;
@@ -2574,7 +2574,7 @@ footer .copyright span:last-child::after {
 .caption{
 	font-size: 30px;
     color: #484848;
-    font-family: initial;
+    /*font-family: initial;*/
     padding: 10px;
 }
 
