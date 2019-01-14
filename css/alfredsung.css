@@ -1,0 +1,167 @@
+body{
+	box-sizing: border-box;
+	padding: 0 15px;
+	font-size: 1.5rem;
+}
+
+*{
+	line-height: 2.5rem;
+}
+
+.alfredsung *{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-container{
+	position: relative;
+    top: 8rem;
+}
+
+.singleheader {
+    position: relative;
+    height: 5rem;
+    width: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+	left: 1rem;
+    top: 0rem;
+    padding: 0.5rem;
+    border: 3px solid;
+  }
+
+.singleheader img{
+	padding: 0;
+}
+
+p{
+	padding: 15px;
+	width: 95%;
+}
+
+img{
+	display: flex;
+	padding-left: 20px;
+}
+
+.caption{
+	padding: 10px;
+	color: #0f6a7e;
+}
+.h1-1{
+	font-size: 2.5em;
+}
+
+
+.h2-2{
+	font-size: 1.5em;
+}
+
+.h3-3{
+	font-size: 1.3em;
+}
+
+.h6-6, .h5-5{
+	font-size: 1em;
+	text-transform: capitalize;
+}
+
+.logoDesign {
+	margin: 0 auto;
+    overflow: hidden;
+}
+
+.logoDesign div{
+	width: 100px;
+	float: left;
+}
+
+.wireframe{
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.wireframe img{
+	width: 48%;
+	float: left;
+}
+
+.persona img{
+	width: 60%;
+}
+
+.Flowchart img{
+    width: 60%;
+}
+
+
+.storyboard{
+	overflow: hidden;
+	margin: 0 auto;	
+}
+
+.storyboard img{
+    width: 18%;
+    padding: 1rem;
+    border-right: 1px solid;
+    display: flex;
+    float: left;
+}
+
+.finalimages img{
+	width: 48%;
+	float: left;
+}
+
+.finalimages img:nth-child(2){
+	width: 44%;
+	float: left;
+}
+
+.morelinks button{
+	background: black;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.collapseicon{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.25;
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+/*.intro-collap .button::after {*/
+.collapseicon::after {
+	display: inline-block;
+	content: "\f107";
+	font-family: fontAwesome;
+	font-size: 1.8rem;
+	line-height: inherit;
+	text-align: center;
+	position: relative;
+	left: 1.2rem;
+}
+
+/*
+
+.storyboard img:nth-child(1){
+
+}
+
+.storyboard img:nth-child(2){
+
+}
+
+.storyboard img:nth-child(3){
+	
+}
+
+.storyboard img:nth-child(4){
+	
+}
+
+.storyboard img:nth-child(5){
+	
+}*/
