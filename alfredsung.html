@@ -4,7 +4,7 @@
 	<title>Alfred Sung Redesign</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="css/base.css">  
-	<link rel="stylesheet" href="css/menubar.css">  
+	<!-- <link rel="stylesheet" href="css/menubar.css">   -->
 	<link rel="stylesheet" href="css/vendor.css">  
 	<link rel="stylesheet" href="css/alfredsung.css">
 	<link href="https://fonts.googleapis.com/css?family=Slabo+27px|Titillium+Web" rel="stylesheet">
@@ -12,19 +12,31 @@
 
 <body id = "top">
 	<header>   	
-		<!-- <div class="singleheader">
-			<a href="index.html" title=""><img src="images/home.png"></a>
-		</div>  --><!-- /top-bar --> 
-	<ul class="customheader">
-		<li><a class=""  href="./index.html" title="">Home</a></li>
-		<li><a class=""  href="./index.html#about" title="">About</a></li>
-		<li><a class=""  href="./index.html#about" title="">Skills</a></li>
-		<li><a class=""  href="./index.html#resume" title="">Work Experience</a></li>
-		<li><a class=""  href="./index.html#portfolio" title="">Portfolio</a></li>				
-		<li><a class=""  href="./index.html#contact" title="">Contact</a></li>	
-		<li><a class="" href="RESUME-SAKINA-DAS.pdf" download="SakinaDas_Resume" class="button special small">Download Resume</a></li>
-	</ul>
+		<div class="row">
+
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<div class="logo">
+					<span>Dream, Design, Develop</span>
+				</div>		      
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">Skills</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Work Experience</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>				
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li> <a class="" href="RESUME-SAKINA-DAS.pdf" download="SakinaDas_Resume" class="button special small">Download Resume</a></li>
+					</ul>
+				</nav>    		
+			</div> <!-- /top-bar --> 
+			
+		</div> <!-- /row --> 		
 	</header> <!-- /header -->
+	
 
 	<div class="main-container alfredsung" id="alfredsung">
 		<h1 class="caption h1-1"><center>Alfred Sung Shopping Site - REDESIGN</center></h1>
@@ -44,7 +56,7 @@
 			<ol>Let’s suppose with all the patience in the universe the user waited on the menu to appear, the options are very vague. </ol>
 			<ol>Products, About, Contact, Announcements.</ol>
 			<ol>The user still does not know what’s happening unless he is Alfred Sung.</ol>
-			<ol>User colcks ‘products’ out of curiosity.</ol>
+			<ol>User clicks ‘products’ out of curiosity.</ol>
 			<span class="more"> <h1 class="collapseicon" style="margin-left: 1.8rem; cursor: pointer;">Click to view the entire list of challenges.</h1></span>
 			<div class="challenge" style="display: none;"><ol>The menu drills down to ‘women’ and ‘men’.</ol>
 			<ol>Still don’t get what’s happening here. Am I looking for dresses, shoes, perfumes?</ol>

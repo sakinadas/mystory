@@ -8,6 +8,13 @@ body{
 	line-height: 2.5rem;
 }
 
+.row{
+	width: 98%;
+	max-width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
 .alfredsung *{
     font-family: 'Titillium Web', sans-serif;
 }
@@ -142,6 +149,39 @@ img{
 	text-align: center;
 	position: relative;
 	left: 1.2rem;
+}
+
+/* dropdown nav */
+.main-navigation {
+	background: #000000;
+	padding: 24px 30px 42px;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: none;
+}
+.main-navigation > li {
+	display: block;
+	height: auto;
+	text-align: left;
+	padding: 0;
+}
+.main-navigation li a {
+	display: block;
+	color: #FFFFFF;
+	width: auto;
+	padding: 15px 0;
+	line-height: 16px;
+	border: none;
+}
+.main-navigation li a:hover {
+	color: #05aba6;
+	padding-left: 1rem;
+}
+.main-navigation li.current > a {
+	background: none;
+	color: #05aba6;
 }
 
 /*
