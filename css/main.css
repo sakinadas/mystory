@@ -1747,7 +1747,7 @@ header .logo span{
     width: 30rem;
     position: absolute;
     left: 0px;
-    padding: 3rem;
+    /*padding: 3rem;*/
     top: 0px;
     margin: 1rem;
 }

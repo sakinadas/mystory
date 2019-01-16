@@ -2,26 +2,47 @@ body{
 	box-sizing: border-box;
 	padding: 0 15px;
 	font-size: 1.5rem;
+	width: 80%;
+	margin: 0 auto;
+}
+.row{
+	width: 97%;
 }
 
 *{
 	line-height: 2.5rem;
 }
 
+header{
+	max-width: 80%
+}
+
+hr{
+	width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-color: #fff;
+}
+
 .row{
-	width: 98%;
-	max-width: 100%;
 	margin: 0 !important;
 	padding: 0 !important;
 }
 
 .alfredsung *{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Verdana, Geneva, sans-serif';
+}
+
+.h1-1{
+	color: #444343;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 1rem;
 }
 
 .main-container{
 	position: relative;
-    top: 8rem;
+    top: 10rem;
 }
 
 .singleheader {
@@ -42,46 +63,37 @@ body{
 }
 
 p{
-	padding: 15px;
-	width: 95%;
-}
-
-img{
-	display: flex;
-	padding-left: 20px;
+	padding: 5px;
+	color: #616161;
 }
 
 .caption{
-	padding: 10px;
-	color: #0f6a7e;
+	padding: 6px;
 }
-.h1-1{
-	font-size: 2.5em;
-}
-
 
 .h2-2{
 	font-size: 1.5em;
+	color: #000;
+	text-transform: uppercase;
 }
 
 .h3-3{
 	font-size: 1.3em;
+	color: #000;
+	text-transform: uppercase;
 }
 
 .h6-6, .h5-5{
 	font-size: 1em;
-	text-transform: capitalize;
+	text-transform: uppercase;;
 }
 
 .logoDesign {
 	margin: 0 auto;
     overflow: hidden;
+    width: 65%;
 }
 
-.logoDesign div{
-	width: 100px;
-	float: left;
-}
 
 .wireframe{
 	overflow: hidden;
@@ -93,14 +105,12 @@ img{
 	float: left;
 }
 
-.persona img{
-	width: 60%;
-}
+.persona, .journey, .flowchart{
+	margin: 15px auto;
+    overflow: hidden;
+    width: 75%;
 
-.Flowchart img{
-    width: 60%;
 }
-
 
 .storyboard{
 	overflow: hidden;
@@ -115,13 +125,22 @@ img{
     float: left;
 }
 
-.finalimages img{
-	width: 48%;
-	float: left;
+.finalimages{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+   margin-bottom: 2rem;
 }
 
-.finalimages img:nth-child(2){
-	width: 44%;
+
+.finalimages div{
+	height: 46rem;
+    width: 46rem;
+    float: left;
+
+}
+
+.finalimages img{
 	float: left;
 }
 
