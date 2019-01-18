@@ -28,7 +28,8 @@ html, body {
 }
 body {
 	/*background: #151515;*/
-	font-family: "lora-regular", serif;
+	/*font-family: "lora-regular", serif;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
 	color: #6e6e6e;
@@ -48,7 +49,8 @@ a:hover, a:focus, a:active {
 }
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "poppins-semibold", sans-serif;
+	/*font-family: "poppins-semibold", sans-serif;*/
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #000;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
@@ -168,7 +170,8 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "poppins-bold", serif;
+	/*font-family: "poppins-bold", serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
@@ -279,7 +282,8 @@ th, td {
 }
 th {
 	color: #05aba6;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 td {
 	line-height: 1.5;
@@ -446,7 +450,8 @@ select {
 	outline: none;
 	vertical-align: middle;
 	color: #05aba6;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	max-width: 100%;
@@ -518,7 +523,8 @@ select:focus {
 	border-bottom: 1px solid #05aba6;
 }
 label, legend {
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: #3b3b3b;
@@ -530,7 +536,8 @@ input[type="checkbox"], input[type="radio"] {
 label > .label-text {
 	display: inline-block;
 	margin-left: 1rem;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	line-height: inherit;
 }
 label > input[type="checkbox"], label > input[type="radio"] {
@@ -572,7 +579,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
@@ -681,7 +689,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 	margin-bottom: 3rem;
 	border-radius: 3px;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.5rem;
 }
 .alert-box .close {
@@ -720,7 +729,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 0;
 	padding: 1.5rem .6rem 0 0;
 	font-size: 8.4rem;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	line-height: 6rem;
 	text-indent: 0;
 	background: transparent;
@@ -840,7 +850,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 2.5rem;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	border: none;
 	color: #252525;
 }
@@ -851,7 +862,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: block;
 	margin: .6rem 0 0 0;
 	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #888888;
 }
 
@@ -875,7 +887,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: absolute;
 	left: 0;
 	top: -3rem;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #05aba6;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -892,7 +905,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	right: 0;
 	top: -3.6rem;
 	display: block;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1;
@@ -954,7 +968,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "poppins-semibold", serif;
+	/*font-family: "poppins-semibold", serif;*/
 	font-size: 3.6rem;
 	color: #05aba6;
 	line-height: 1.25;
@@ -1143,7 +1157,8 @@ header .logo span{
 #main-nav-wrap {
 	display: block;
 	width: 100%;
-	font-family: "poppins-medium", sans-serif;
+	/*font-family: "poppins-medium", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.5rem;
 	position: absolute;
 	top: 100%;
@@ -1252,7 +1267,8 @@ header .logo span{
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
+	/*font-family: "poppins-medium", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1264,7 +1280,8 @@ header .logo span{
 }
 .intro-content h5 {
 	color: #05aba6;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
@@ -1313,7 +1330,7 @@ header .logo span{
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -1322,7 +1339,8 @@ header .logo span{
 }
 
 .collapseicon{
-	font-family: "poppins-semibold", serif;
+	/*font-family: "poppins-semibold", serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 3.6rem;
     color: #05aba6;
     line-height: 1.25;
@@ -1347,7 +1365,7 @@ header .logo span{
 	width: 100%;
 	left: 0;
 	bottom: 7.2rem;
-	font-size: 3.3rem;
+	font-size: 5.3rem;
 	margin: 0;
 	padding: 0;
 }
@@ -1434,11 +1452,11 @@ header .logo span{
 	margin-bottom: 3rem;
 }
 
-.intro-info {
-	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+.intro-info p {
+	position: relative;
+	top: 6rem;
 }
+
 .intro-info img {
 	height: 22rem;
     width: 25rem;
@@ -1458,7 +1476,8 @@ header .logo span{
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
@@ -1472,7 +1491,8 @@ header .logo span{
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -1481,13 +1501,19 @@ header .logo span{
 }
 .about-content .info-list li span {
 	display: block;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1.5;
 }
 .about-content .skill-bars {
 	margin-top: 6rem;
+}
+
+.educationskills{
+	position: relative;
+    top: -7rem;
 }
 
 .button-section {
@@ -1628,7 +1654,8 @@ header .logo span{
 	margin-bottom: 0;
 }
 #resume .timeline-header p {
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.6rem;
 	color: #888888;
 }
@@ -1802,7 +1829,8 @@ header .logo span{
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.2rem;
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
@@ -1860,20 +1888,19 @@ header .logo span{
 	padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
 }
 .popup-modal .description-box p {
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
-	font-family: "poppins-bold", sans-serif;
-	font-size: 1.1rem;
+	/*font-family: "poppins-bold", sans-serif;*/    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	line-height: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
@@ -1887,7 +1914,8 @@ header .logo span{
 	background: #000000;
 }
 .popup-modal .link-box a {
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
 	color: #FFFFFF;
@@ -2160,7 +2188,8 @@ header .logo span{
 	font-size: 3.6rem;
 	margin-top: 1.2rem;
 	margin-bottom: 0;
-	font-family: "poppins-medium", sans-serif;
+	/*font-family: "poppins-medium", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: white;
 }
 #stats .stat-title {
@@ -2253,7 +2282,8 @@ header .logo span{
 	clear: both;
 }
 #contact form .form-field label {
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.1rem;
 	line-height: 2.4rem;
 	position: absolute;
@@ -2350,7 +2380,8 @@ header .logo span{
 }
 #submit-loader .text-loader {
 	display: none;
-	font-family: "poppins-bold", sans-serif;
+	/*font-family: "poppins-bold", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	color: #FFFFFF;
 	letter-spacing: .3rem;
 	text-transform: uppercase;
@@ -2363,7 +2394,8 @@ header .logo span{
 }
 .contact-info {
 	margin: 2.8rem auto 0;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
 }
@@ -2446,7 +2478,8 @@ header .logo span{
 footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
-	font-family: "poppins-regular", sans-serif;
+	/*font-family: "poppins-regular", sans-serif;*/
+	    font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 1rem;
 	background-color: black;
 }
@@ -2550,10 +2583,10 @@ footer .copyright span:last-child::after {
 #go-top a:hover {
 	background: #000000;
 }
-.intro-info, .educationskills, .workexperience{
+/*.intro-info, .educationskills, .workexperience{
     display: none;
     padding : 5px;
-}
+}*/
 
 .info-list{
 	position: relative;

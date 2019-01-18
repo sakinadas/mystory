@@ -13,39 +13,64 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/vendor.css">     
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+
+	<style>
+	.header{
+		background-color: black;
+	}
+	
+	.header .menu li{
+		list-style: none;
+		float: left;
+		padding: 0 2rem;
+	}
+
+	.header .menu li a{
+		font-size: 16px;
+		color: white;
+		font-weight: 700;
+		letter-spacing: 0.3rem;
+	}
+	.header .menu li a:hover{
+		font-size: 16px;
+		color: #05aba6;
+		font-weight: 700;
+
+	}
+		
+	.header div{
+	
+width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 4rem;
+    line-height: 6rem;
+	}
+
+
+
+	</style>
 
 </head>
 
 <body id="top">
+	<header class="header">
+ <div>
+ 
+  <ul class="menu">
+    <li><a  href="./index.html#about" title="">About</a></li>
+    <li><a  href="./index.html#about" title="">Skills</a></li>
+    <li><a  href="./index.html#resume" title="">Experience</a></li>
+    <li><a  href="./index.html#portfolio" title="">Work</a></li>
+    <li><a  href="./index.html#contact" title="">Contact</a>  </li>
+    <li><a href="RESUME-SAKINA-DAS.pdf" download="SakinaDas_Resume" title="Download CV"><i class="fa fa-arrow-down"></i> Resume</a></li>
+  </ul>
+  </div>
 
-	<header>   	
-		<div class="row">
-
-			<div class="top-bar">
-				<a class="menu-toggle" href="#"><span>Menu</span></a>
-
-				<div class="logo">
-					<span>Dream, Design, Develop</span>
-				</div>		      
-
-				<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">Skills</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Work Experience</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>				
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
-						<li> <a class="" href="RESUME-SAKINA-DAS.pdf" download="SakinaDas_Resume" class="button special small">Download Resume</a></li>
-					</ul>
-				</nav>    		
-			</div> <!-- /top-bar --> 
-			
-		</div> <!-- /row --> 		
-	</header> <!-- /header -->
-
+</header>
 	<section id="intro">   
 
 		<div class="intro-overlay"></div>	
@@ -65,7 +90,7 @@
 					</p>
 
 					<a class="button stroke smoothscroll" href="#portfolio" title="">View my work</a>
-					<a class="button stroke smoothscroll" href="#about" title="">More about me</a>
+					<a  href="RESUME-SAKINA-DAS.pdf" download="SakinaDas_Resume" class="button stroke">Download Resume</a>
 
 				</div>  
 				
@@ -83,9 +108,8 @@
 
 	<section id="about">  
 
-		<div class="row section-intro">
-			<div class="col-twelve clickaboutme">
-				<span class="clickaboutme"> <h1 class="collapseicon">About Me</h1></span>
+		<div class=" col-six tab-full row">
+				<center><h1 class="">About Me</h1></center>
 				<div class="intro-info">
 
 					<img src="images/profile-pic.png" alt="Profile Picture">
@@ -93,17 +117,13 @@
 					<p class="aboutme">I am a <b>Software Engineer</b> experienced in developing rich web applications comprising of server-side API’s and intuitive client-side user experiences.<br>I am efficient as an individual contributor as well as capable of delivering timely outputs in a fast-paced agile environment.
 					</p>
 				</div>   			
-
-			</div>   		
+  		
 		</div> <!-- /section-intro -->
 
-		<div class="row about-content">
-			<span class="clickeducation"><h1 class="collapseicon">Education and Skills</h1> </span>
+		<div class=" col-six tab-full row about-content">
+			<center><h1 class="">Education + Skills</h1></center>
 
 			<div class="col-six tab-full educationskills">
-
-				<!-- <h3>Profile</h3> -->
-				<!-- <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p> -->
 
 				<ul class="info-list">
 					<li>
@@ -129,22 +149,19 @@
 
 			</div>
 
-			<div class="col-six tab-full educationskills">
-
-				<h3>Skills</h3>
-				
-				<div class = "zoom"><img src="images/skills.png" alt="SkillSet"></div>
+			<div class="col-six tab-full">
+				<div><img src="images/skills.png" alt="SkillSet"></div>
 
 			</div>
 
 		</div>
 
-		<div class="row button-section">
+		<!-- <div class="row button-section">
 			<div class="col-twelve">
 				<a href="RESUME-SAKINA-DAS.pdf" download="SakinaDas_Resume" title="Download CV" class="button button-primary">Download CV</a>
 			</div>   		
 		</div>
-
+ -->
 	</section> <!-- /process-->    
 
 
@@ -157,7 +174,7 @@
 
    			<div class="col-twelve resume-header clickwork">
 
-   				<h2 class="collapseicon">Work Experience</h2>
+   				<h2 class="collapseicon">Experience</h2>
 
    			</div> <!-- /resume-header -->
 
@@ -286,7 +303,7 @@
 				<div class="col-twelve">
 
 					<!-- <h5>Portfolio</h5> -->
-					<h1 class="clickportfolio">Check Out Some of My Work.</h1>
+					<h1 class="clickportfolio">Projects & Case Study</h1>
 
 					<p class="lead">An eye to detail and a desire to make everything pixel perfect motivates me to create clean designs and make sure that each button, link or any other component on the page is fully functional. </p>
 
@@ -302,69 +319,29 @@
 
 
 						<div class="bgrid folio-item">
-							<div class="item-wrap">
+							<div class="item-wrap" onclick="openInNewTab('./uxlearn.html');">
 								<img src="images/uxlearn/thumbnail.png" alt="UX Design">
-								<a href="#modal-03" class="overlay">             		                  
-									<div class="folio-item-table">
-										<div class="folio-item-cell">
-											<h3 class="folio-title">UX Principles</h3>	     					    
-											<span class="folio-types">
-												Web Design & Learning
-											</span>		     		
-										</div> 	                      	
-									</div>                    
-								</a>
 							</div>
 						</div>  <!-- /folio-item -->
 
 
 						<div class="bgrid folio-item">
-							<div class="item-wrap">
+							<div class="item-wrap" onclick="openInNewTab('./alfredsung.html');">
 								<img src="images/alfredsung/thumbnail.png" alt="Design process">
-								<a href="#modal-06" class="overlay">                  	                 
-									<div class="folio-item-table">
-										<div class="folio-item-cell">
-											<h3 class="folio-title">Alfred Sung Redesign</h3>	     					    
-											<span class="folio-types">
-												UI/UX, Web Design, Responsive
-											</span>		     		
-										</div>  	                      	
-									</div>                    
-								</a>
 							</div>
 						</div> <!-- /folio-item -->     
 
 						<div class="bgrid folio-item">
-							<div class="item-wrap">
+							<div class="item-wrap" onclick="openInNewTab('./reporting.html');">
 								<img src="images/reports/thumbnail.png" alt="Reporting">
-								<a href="#modal-02" class="overlay">              		                  
-									<div class="folio-item-table">
-										<div class="folio-item-cell">
-											<h3 class="folio-title">Reports</h3>	     					    
-											<span class="folio-types">
-												Infographic Design
-											</span>		     		
-										</div> 	                      	
-									</div>                    
-								</a>
 							</div>
 						</div> <!-- /folio-item -->
 
 						<!-- ShoeLogic -->
 
 						<div class="bgrid folio-item">
-							<div class="item-wrap">
+							<div class="item-wrap" onclick="openInNewTab('./shoes.html');">
 								<img src="images/shoes/thumbnail.png" alt="ShoeLogic">
-								<a href="#modal-04" class="overlay">                  	                 
-									<div class="folio-item-table">
-										<div class="folio-item-cell">
-											<h3 class="folio-title">ShoeLogic</h3>	     					    
-											<span class="folio-types">
-												UX + Web Design
-											</span>		     		
-										</div>  	                      	
-									</div>                    
-								</a>
 							</div>
 						</div> <!-- /folio-item -->    
 
@@ -386,167 +363,16 @@
 						</div>  --><!-- /folio-item -->  
 
 						<div class="bgrid folio-item">
-							<div class="item-wrap">
+							<div class="item-wrap" onclick="openInNewTab('./comingsoon.html');">
 								<img src="images/bookstore/bookstorethumb.png" alt="Design process">
-								<a href="#modal-05" class="overlay">                  	                 
-									<div class="folio-item-table">
-										<div class="folio-item-cell">
-											<h3 class="folio-title">Booksearch online</h3>	     					    
-											<span class="folio-types">
-												UI/UX, Web Design
-											</span>		     		
-										</div>  	                      	
-									</div>                    
-								</a>
 							</div>
 						</div> <!-- /folio-item -->    
 
 						<div class="bgrid folio-item">
-							<div class="item-wrap">
+							<div class="item-wrap" onclick="openInNewTab('./crissncross.html');">
 								<img src="images/crissncross/thumbnail.png" alt="product">
-								<a href="#modal-01" class="overlay">	                  	           
-									<div class="folio-item-table">
-										<div class="folio-item-cell">
-											<h3 class="folio-title">Criss 'n' Cross</h3>	     					    
-											<span class="folio-types">
-												UI/UX Design
-											</span>
-										</div>	                      	
-									</div>                    
-								</a>
 							</div>	               
 						</div> <!-- /folio-item Creating Products--> 
-
-						
-
-	            <!-- modal popups - begin
-	            	============================================================= -->
-	            	<div id="modal-01" class="popup-modal slider mfp-hide">	
-
-	            		<div class="media">
-	            			<img src="images/crissncross/modelpopup.png" alt="" />
-	            		</div>      	
-
-	            		<div class="description-box">
-	            			<h4>Criss 'n' Cross</h4>		      
-	            			<p>The design is based for a product manufacturing or selling company. It is targeted to display products, features, client testimonials and in-depth images or content of each item.</p>
-
-	            			<div class="categories">Web Development</div>			               
-	            		</div>
-
-	            		<div class="link-box">
-	            			<a href="crissncross.html">Details</a>
-	            			<a href="#" class="popup-modal-dismiss">Close</a>
-	            		</div>		      
-
-	            	</div> <!-- /modal-01 -->
-
-	            	<div id="modal-02" class="popup-modal slider mfp-hide">	
-
-	            		<div class="media">
-	            			<img src="images/reports/iphone.png" alt="" />
-	            		</div>      	
-
-	            		<div class="description-box">
-	            			<h4>Reporting data</h4>		      
-	            			<p>Every firm needs a chart or graph that displays data in a seamless and easy to understand fashion. Data can get huge and with my experience on working with CRM's, this design uses clean white background, subtle colors and readable font. It is ideal for phones, big screens, presentations and tablets.</p>
-
-	            			<div class="categories">Web Design</div>			               
-	            		</div>
-
-	            		<div class="link-box">
-	            			<a href="reporting.html">Details</a>
-	            			<a href="#" class="popup-modal-dismiss">Close</a>
-	            		</div>		      
-
-	            	</div> <!-- /modal-02 -->
-
-	            	<div id="modal-03" class="popup-modal slider mfp-hide">	
-
-	            		<div class="media">
-	            			<img src="images/uxlearn/uxmulti.png" alt="" />
-	            		</div>      	
-
-	            		<div class="description-box">
-	            			<h4>UX Design Principles</h4>		      
-	            			<p>What better than to have a UX design principle blog when that is the main focus. This shows the basic yet key points to keep in mind while on the UX journey. There are several more key things to know but this a good start to begin with.</p>
-
-	            			<div class="categories">UX Designn</div>			               
-	            		</div>
-
-	            		<div class="link-box">
-	            			<a href="uxlearn.html">Details</a>
-	            			<a href="#" class="popup-modal-dismiss">Close</a>
-	            		</div>		      
-
-	            	</div> <!-- /modal-03 -->
-
-	            	<div id="modal-04" class="popup-modal slider mfp-hide">	
-
-	            		<div class="media">
-	            			<img src="images/shoes/showshadow.png" alt="" />
-	            		</div>      	
-
-	            		<div class="description-box">
-	            			<h4>ShoeLogic</h4>		      
-	            			<p>Checkout some shoes. With clear navigation, details right on the main page and filter options this is a base for a good e-commerce site. What better than having everything visible at one-click.</p>
-
-	            			<div class="categories">Branding / Web Design</div>			               
-	            		</div>
-
-	            		<div class="link-box">
-	            			<a href="shoes.html">Details</a>
-	            			<a href="#" class="popup-modal-dismiss">Close</a>
-	            		</div>		      
-
-	            	</div> <!-- /modal-04 -->
-
-
-	            	<div id="modal-05" class="popup-modal slider mfp-hide">	
-
-	            		<div class="media">
-	            			<img src="images/bookstore/model5.png" alt="" />
-	            		</div>      	
-
-	            		<div class="description-box">
-	            			<h4>Design Step-by-Step</h4>		      
-	            			<p>The key to a good design is following each step in the process, proceeding in an agile method and evaluating your progress after every act. Although, a design process may vary for different projects and for different people, this is a process I follow. I do add or remove steps depending on the task at hand, but, these are a must.</p>
-
-	            			<div class="categories">Process</div>			               
-	            		</div>
-
-	            		<div class="link-box">
-	            			<a href="">Details - coming up</a>
-	            			<a href="#" class="popup-modal-dismiss">Close</a>
-	            		</div>		      
-
-	            	</div> <!-- /modal-05 -->
-
-	            	<div id="modal-06" class="popup-modal slider mfp-hide">	
-
-	            		<div class="media">
-	            			<img src="images/alfredsung/new/a1.png" alt="" />
-	            		</div>      	
-
-	            		<div class="description-box">
-	            			<h4>Alfred Sung Shoppee</h4>		      
-	            			<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-
-	            			<div class="categories">UI/UX + Site Redesign</div>			               
-	            		</div>
-
-	            		<div class="link-box">
-	            			<a href="alfredsung.html">Details</a>
-	            			<a href="#" class="popup-modal-dismiss">Close</a>
-	            		</div>		      
-
-	            	</div> <!-- /modal-06 -->
-
-	            	
-
-
-				   <!-- modal popups - end
-				   	============================================================= -->
 
 				   </div> <!-- /portfolio-wrapper --> 
 
@@ -555,36 +381,7 @@
 			</div> <!-- /portfolio-content --> 
 			
 		</section> <!-- /portfolio --> 
-		
-	<!-- services Section
-		================================================== -->
-
-		<section id="services">
-
-			<div class="row section-intro">
-				<div class="col-twelve">
-
-					<h5></h5>
-					<h1>Let's get to work</h1>
-
-					<p class="lead">I strive to get the best out of designs both visually and functionally. I can create layouts to sketches, designs to actual implementation.<br> <i> (I am also a fullstack dev :) ) </i><br> I can perform usability, functional, integration and cross browser tests. <br><b class="punch"> I have creative brain cells that do not get tired.</b></p>
-
-				</div>   		
-			</div> <!-- /section-intro -->
-
-			<div class="row services-content">
-				
-				<span>&nbsp;| &nbsp; UX Design</span>
-				
-				<span>&nbsp;| &nbsp; Web App Development</span>  
-				
-				<span>&nbsp;| &nbsp; Frontend Development | &nbsp;</span> <br>
-				<span>&nbsp; | &nbsp; Full Stack Development</span>
-
-				<span>&nbsp;| &nbsp; Technical Writing / Blogging &nbsp;| &nbsp;</span>
-
-			</div> <!-- /services-list -->
-			
+	
 		</section> <!-- /services -->	
 
 
@@ -662,14 +459,19 @@
    		<div id="loader"></div>
    	</div> 
 
-
    	<script src="js/jquery-2.1.3.min.js"></script>
    	<script src="js/plugins.js"></script>
    	<script src="js/main.js"></script>
    	<script>
-   		$('.section-intro').click(function(){
-   			$('.intro-info').slideToggle('slow');
-   		});
+
+
+   		// $('.section-intro').click(function(){
+   		// 	$('.intro-info').slideToggle('slow');
+   		// });
+   		function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
 
    		$('.clickeducation').click(function(){
    			$('.educationskills').slideToggle('slow');
@@ -683,9 +485,9 @@
    			$('.portfoliodata').slideToggle('slow');
    		});
 
-		  $(document).ready(function() {
-		     $('video').prop('muted',true).play()
-		 });
+		 //  $(document).ready(function() {
+		 //     $('video').prop('muted',true).play()
+		 // });
 
 
    	</script>	
