@@ -369,11 +369,11 @@ textarea {
  *
  * ------------------------------------------------------------------- 
  */
-.row {
+/*.row {
 	width: 94%;
 	max-width: 1140px;
 	margin: 0 auto;
-}
+}*/
 
 .row:before,
 .row:after {
@@ -392,18 +392,16 @@ textarea {
 	margin-right: -20px;
 }
 
-[class*="col-"],
-.bgrid {
-	float: left;
-}
-
+/*
 [class*="col-"] + [class*="col-"].end {
 	float: right;
 }
 
 [class*="col-"] {
-	padding: 0 20px;
-}
+  width: 100%;
+   float: left;
+  padding: 15px;
+}*/
 
 .col-one {
 	width: 8.33333%;

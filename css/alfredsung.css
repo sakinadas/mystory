@@ -29,10 +29,6 @@ hr{
 	padding: 0 !important;
 }
 
-.alfredsung *{
-    font-family: 'Verdana, Geneva, sans-serif';
-}
-
 .h1-1{
 	color: #444343;
 	text-transform: uppercase;
@@ -148,6 +144,7 @@ p{
 	background: black;
     color: white;
     margin-top: 10px;
+    font-size: 18px;
 }
 
 

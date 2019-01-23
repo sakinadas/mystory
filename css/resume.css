@@ -1,0 +1,129 @@
+
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+
+		* {
+			  box-sizing: border-box;
+			  line-height: 1.5rem;
+			}
+
+		body{
+			width: 90%;	
+			margin: 0 auto;
+			overflow-x: hidden;
+			font-family: 'Lato', sans-serif;
+		}
+
+		h1{font-size: 42px;}
+		h3{font-size: 28px;}
+
+		header{
+			margin: 0 auto;
+			overflow: hidden;
+			padding: 10px;
+			position: fixed;
+			width: inherit;		
+			z-index: 999;
+			top: 0;
+			background-color: #000;
+		}
+		
+
+		section{
+			margin: 0 auto;
+			overflow: hidden;
+			padding: 25px 0;
+		}
+
+		.aboutme h1{
+			margin: 5rem 1rem 1rem;
+			color: #26af98;
+		}
+
+		.aboutme div{
+			display: block;
+			margin: 0 auto;
+			overflow: hidden;
+			font-size: 14px;
+		    line-height: 1.2rem;
+		    color: #1f1f1f;
+		}
+
+		.aboutme img{
+			width: 12rem;
+		    margin: 40px 75px 0 75px;
+		    float: right;	
+		}
+
+		.skills div img{
+			margin: 0 auto;
+			display: block;
+			width: 70%;
+		}
+
+		.work div{
+			height: auto;
+			margin-bottom: 10px;
+		}
+
+		.work div h3, .work div h5, h3, h1, h4{
+			text-align: center;
+			margin: 15px;
+			color: #26af98;
+		}
+
+		.education{
+			color: #1f1f1f;
+			padding-left: 3rem;
+		}
+
+		.content li{
+			font-size: 13px;
+		}
+
+		.bachelor, .master{
+			text-align: left;
+			padding-left: 40px;
+			display: block;
+		}
+
+		div{
+			float: left;
+		}
+
+		.nav-menu ul{
+		    margin: 0 auto;
+		    width: 40%;
+		    height: 40px;
+		}
+
+		.nav-menu li{
+			list-style: none;
+			float: left;	
+			padding: 10px;
+		}
+
+		.nav-menu li a:hover{
+			list-style: none;
+			float: left;	
+			color: #26af98;
+		}
+
+		.nav-menu li a{
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.content{
+			color: #777;
+		}

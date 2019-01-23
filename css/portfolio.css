@@ -1,12 +1,57 @@
+.intro-content img{
+        border-radius: 50%;
+    height: 30rem;
+    margin-top: 6rem;
+}
+
+.intro-position-skill span:nth-child(1){
+    color: #05aba6;
+}
+
+header{
+     width: 90%;
+}
+
+.header{
+        background-color: black;
+
+    }
+    
+    .header .menu li{
+        list-style: none;
+        float: left;
+        padding: 0 2rem;
+    }
+
+    .header .menu li a{
+        font-size: 16px;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+    }
+    .header .menu li a:hover{
+        font-size: 16px;
+        color: #05aba6;
+        font-weight: 700;
+
+    }
+        
+    .header div{
+    
+        width: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 4rem;
+        line-height: 6rem;
+    }
+
+
 
 .uxlearn{
         margin-top: 4rem;
 }
 
 .uxlearn *{
-    /*font-family: "poppins-bold", sans-serif;*/
-    /*font-family: 'Slabo 27px', serif;*/
-    /*font-family: 'Titillium Web', sans-serif;*/
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -22,7 +67,7 @@
     padding: 0.5rem;
     border: 3px solid;
   }
-
+/*
 .crissncross img{
 	margin-bottom: 3rem;
     display: block;
@@ -32,7 +77,7 @@
     margin-right: 2rem;
     margin-left: 2rem;
     float: left;
-}
+}*/
 
 .reports img{
 	margin-bottom: 3rem;
@@ -169,20 +214,113 @@
     padding: 2rem;
 }
 
-.morelinks a button{
-   background-color: #05aba6;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 1.4rem;
-    color: white !important;
-    font-family: 'Titillium Web', sans-serif;
-    height: 4rem;
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
-    cursor: pointer;
-    white-space: nowrap;
+.morelinks a{
+    background: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#aboutme{
+    padding-top: 2rem;
+    height: auto;
+    font-size: 13px;
+}
+
+.education{
+    padding: 0 3rem;
+}
+
+.education span{
+    font-size: 13px;
+}
+
+#education{
+    height: 15rem;
+    margin: 0 auto;
+}
+
+.educationskills{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.portfoliodata{
+    position: relative;
+    left: 3rem;
+}
+
+.item-wrap img{
+    margin-bottom: 20px;
+
+}
+
+.item-wrap span{
+     cursor: pointer;
+}
+
+.item-wrap:hover{
+     cursor: pointer;
+     font-weight: 800;
+    color: green;
+}
+
+.comingsoon:hover{
+     cursor: pointer;
+     font-weight: 800;
+    color: red;
+}
+
+
+.morelinks button {
+    background: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+/* For mobile phones: */
+/*[class*="col-"] {
+  width: 100%;
+   float: left;
+  padding: 15px;
+}
+*/
+.container{
+    position: relative;
+    top: 7rem;
+}
+
+body{
+    max-width: 92%;
+    margin: auto;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 }
