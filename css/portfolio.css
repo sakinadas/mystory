@@ -14,7 +14,6 @@ header{
 
 .header{
         background-color: black;
-
     }
     
     .header .menu li{
@@ -278,6 +277,11 @@ header{
     margin-top: 10px;
     font-size: 18px;
 
+}
+
+.crm div{
+    padding: 25px;
+    margin-bottom: 5rem;
 }
 /* For mobile phones: */
 /*[class*="col-"] {
