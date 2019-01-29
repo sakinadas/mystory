@@ -1,0 +1,199 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+p, ul{
+	font-size: 13px;
+    line-height: 1.3rem;
+    color: #585858;
+}
+
+h2{
+    font-size: 28px;
+    color: #333333;
+}
+
+h3{
+    font-size: 20px;
+    color: #6f6f6f;
+}
+
+li{
+	list-style: none;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  /*border: 1px solid grey;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.separator{
+    height: 24px;
+}
+
+.banner{
+    height: 600px;
+    width: 100%;
+    background: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 4rem;
+}
+
+
+.heading .data{
+	position: relative;
+    top: 26rem;
+    font-family: inherit;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.heading h1{
+	font-size: 70px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.heading h3{
+	position: relative;
+    left: 28rem;
+    color: white;	
+    font-family: inherit;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+#overview, #overview .visual{
+	margin: 0 auto;
+    display: block;
+	overflow: hidden;
+}
+
+#crm-analytics img,  #crm-overview img,  #overview img{
+    width: 75%;
+    margin: 0 15px;
+    background: #bbbbbb;
+    padding: 2px;
+}
+
+.go-to-main-page a{
+    display: block;
+    height: 3rem;
+    width: 6rem;
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
