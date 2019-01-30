@@ -1,0 +1,242 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+p, ul{
+	font-size: 13px;
+    line-height: 1.3rem;
+    color: #585858;
+}
+
+h2{
+    font-size: 28px;
+    color: #333333;
+}
+
+h3{
+    font-size: 20px;
+    color: #6f6f6f;
+}
+
+li{
+	list-style: none;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  /*border: 1px solid grey;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.separator{
+    height: 24px;
+}
+
+.banner{
+    width: 100%;
+    /*background: url(./images/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;*/
+    margin-bottom: 4rem;
+}
+
+.banner img{
+    width: inherit;
+}
+
+
+.heading .data{
+	position: relative;
+    top: 0rem;
+    font-family: inherit;
+    color: white;
+    display: block;
+    background: #001E64;
+    text-align: center;
+}
+
+.heading h1{
+	font-size: 60px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.heading h3{
+	position: relative;
+    left: 28rem;
+    color: white;	
+    font-family: inherit;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+
+#crm-overview, #crm-analytics, #crm-performance{
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.highchartsdata{
+    float: left;
+    margin: 0 15px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+
+.highchartsdata img{
+    width: 55%;
+    float: left;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.highchartsdata h4{
+    font-size: 23px;
+    color: #001E64;
+    line-height: 24px;
+}
+
+.highchartsdata div{
+    display: block;
+    float: left;
+    padding-top: 5rem;
+}
+
+.highchartsdata div a{
+    text-decoration: none;
+    color: #666;
+}
+
+.highchartsdata div a:hover{
+    text-decoration: none;
+    color: #001E64;
+}
+
+
+
+.go-to-main-page a{
+    display: block;
+    height: 3rem;
+    width: 6rem;
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
