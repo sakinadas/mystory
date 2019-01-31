@@ -102,17 +102,25 @@ li{
 }
 
 
-#crm-overview, #crm-analytics, #crm-performance{
+#crm-overview, #crm-analytics, #crm-performance, #crm-tabs{
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 #crm-analytics img,  #crm-overview img, #crm-performance img{
-    width: 45%;
+    width: 32%;
+    float: left;
+    margin: 0 5px;
+    background: #bbbbbb;
+    padding: 5px;
+}
+
+#crm-tabs img{
+     width: 45%;
     float: left;
     margin: 0 15px;
     background: #bbbbbb;
-    padding: 5px;
+    padding: 2px;
 }
 
 .go-to-main-page a{
